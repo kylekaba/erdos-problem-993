@@ -113,6 +113,9 @@ def check_two_nhr(n: int, edges: List[Tuple[int, int]], r: int) -> Failure | Non
 
 def iter_trees(max_n: int):
     for n in range(1, max_n + 1):
+        if n == 1:
+            yield n, []
+            continue
         for T in nx.nonisomorphic_trees(n):
             edges = sorted((min(u, v), max(u, v)) for u, v in T.edges())
             yield n, edges

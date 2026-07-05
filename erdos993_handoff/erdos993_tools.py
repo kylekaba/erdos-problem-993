@@ -439,6 +439,9 @@ def check_leaf_no_hidden_strict_descent(n: int, edges: Sequence[Edge]) -> List[L
 # ---------------------------------------------------------------------------
 
 def nx_tree_edges(n: int):
+    if n == 1:
+        yield []
+        return
     try:
         import networkx as nx
     except Exception as e:  # pragma: no cover
