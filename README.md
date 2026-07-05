@@ -2,7 +2,7 @@
 
 This repository collects exact-arithmetic computations and proof-route notes from two working sessions on [Erdos Problem #993](https://www.erdosproblems.com/993): whether the independent-set sequence of every tree or forest is unimodal.
 
-The project is a research handoff, not a claimed solution. As of July 2026, the official Erdős Problems page lists #993 as open and "falsifiable", meaning that one finite tree or forest with a non-unimodal independent-set sequence would disprove it. The scripts here instead found and verified a useful obstruction to one tempting proof strategy, plus a more promising induction framework to investigate next.
+The project is still in progress. As of July 2026, the official Erdős Problems page lists #993 as open and "falsifiable", meaning that one finite tree or forest with a non-unimodal independent-set sequence would disprove it. The scripts here instead found and verified a useful obstruction to one tempting proof strategy, plus a more promising induction framework to investigate next.
 
 ## Main session findings
 
