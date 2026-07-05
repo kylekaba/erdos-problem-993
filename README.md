@@ -1,4 +1,4 @@
-# Erdos Problem 993 research handoff
+# Erdos Problem 993 (Open)
 
 This repository collects exact-arithmetic computations and proof-route notes from two working sessions on [Erdos Problem #993](https://www.erdosproblems.com/993): whether the independent-set sequence of every tree or forest is unimodal.
 
